@@ -1,0 +1,26 @@
+{
+  "name": "@zakkudo/jsdoc-immutable-plugin",
+  "version": "0.0.1",
+  "description": "Adds custom tags to jsdoc to help document immutable usages",
+  "keywords": [
+    "immutable",
+    "jsdoc",
+    "documentation"
+  ],
+  "main": "src/index.js",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-jasmine": "^2.10.1",
+    "eslint-plugin-node": "^7.0.1",
+    "jest": "^23.4.2",
+    "jest-cli": "^23.4.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "public": "scripts/publish.sh",
+    "test": "scripts/test.sh",
+    "cover": "scripts/cover.sh",
+    "lint": "scripts/lint.sh"
+  }
+}
