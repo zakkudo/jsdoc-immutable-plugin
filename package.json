@@ -1,6 +1,6 @@
 {
   "name": "@zakkudo/jsdoc-immutable-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds custom tags to jsdoc to help document immutable usages",
   "keywords": [
     "immutable",
@@ -8,6 +8,7 @@
     "documentation"
   ],
   "main": "src/index.js",
+  "repository": "github:zakkudo/jsdoc-immutable-plugin",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "eslint": "^4.19.1",
