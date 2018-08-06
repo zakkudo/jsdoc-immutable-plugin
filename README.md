@@ -41,7 +41,7 @@ Included Types:
 /**
  * Generates an empty map. I'm not sure why you would do this...
  * @return {Immutable.Map} The new map
- *\/
+ */
 export default function generateMap() {
     return fromJS({});
 }
@@ -51,7 +51,7 @@ export default function generateMap() {
 /**
  * Returns a list of names
  * @return {Immutable.List<String>} The generated list
- *\/
+ */
 export default function getListOfNames() {
     return fromJS(['Jim', 'George', 'Bill']);
 }
