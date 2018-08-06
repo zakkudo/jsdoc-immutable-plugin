@@ -1,10 +1,20 @@
-# jsdoc-immutable-plugin
+<a name="module_jsdoc-immutable-plugin"></a>
 
-Adds tags to help document immutable functionality without having to copy-paste text around and allowing disallowing undefined tags.
+## jsdoc-immutable-plugin
+Make working with Immutable types in jsdoc enjoyable.
+
+Why use this?
+
+- Generates standard types for jsdoc so you can set `allowUnknownTags`
+  to `false`
+- Includes links to all of the documentation for the different types on the
+  official site
+- Includes short official descriptions from the official site inline
+
 
 Install with:
 
-```sh
+```console
 yarn add --dev @zakkudo/jsdoc-immutable-plugin
 ```
 
@@ -16,31 +26,33 @@ Add to your jsdoc config with:
     ],
 ```
 
-Tag your reducers this way:
+Included Types:
 
+- `Immutable`
+- `Immutable.Map`
+- `Immutable.List`
+- `Immutable.OrderedMap`
+- `Immutable.Set`
+- `Immutable.OrderedSet`
+- `Immutable.Stack`
+
+**Example** *(Tag your Maps)*  
 ```js
 /**
  * Generates an empty map. I'm not sure why you would do this...
  * @return {Immutable.Map} The new map
- */
+ *\/
 export default function generateMap() {
     return fromJS({});
 }
 ```
-
+**Example** *(Tag your Lists)*  
 ```js
 /**
  * Returns a list of names
  * @return {Immutable.List<String>} The generated list
- */
+ *\/
 export default function getListOfNames() {
     return fromJS(['Jim', 'George', 'Bill']);
 }
 ```
-
-Includes typedefs for
-
-- `Redux` namespace
-- `Redux.Map` typedef to generically describe an immutable map structure
-- `Redux.List` typedef to generically describe an immutable list structure
-- ...this will likely grow int he future.  Pull requests welcome!
