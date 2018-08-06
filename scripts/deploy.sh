@@ -2,8 +2,8 @@
 
 set -e
 
-yarn build
+#yarn build
 yarn document
-yarn cover
+#yarn cover
 
 yarn publish --access public
