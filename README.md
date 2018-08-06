@@ -1,7 +1,7 @@
 <a name="module_jsdoc-immutable-plugin"></a>
 
 ## jsdoc-immutable-plugin
-Make working with Immutable types in jsdoc enjoyable.
+Make working with [Immutable](https://facebook.github.io/immutable-js/) types in [jsdoc](http://usejsdoc.org/) enjoyable.
 
 Why use this?
 

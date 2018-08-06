@@ -2,7 +2,7 @@ const path = require('path');
 
 
 /**
-* Make working with Immutable types in jsdoc enjoyable.
+* Make working with [Immutable]{@link https://facebook.github.io/immutable-js/} types in [jsdoc]{@link http://usejsdoc.org/} enjoyable.
 *
 * Why use this?
 *
